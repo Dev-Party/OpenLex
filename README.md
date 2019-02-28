@@ -1,6 +1,12 @@
 # OpenLex
 Software para el manejo de estudios jurídicos y oficinas judiciales
 
+## Tutorial y demostración
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=GK1-XE2Nxdc
+" target="_blank"><img src="http://img.youtube.com/vi/GK1-XE2Nxdc/0.jpg" 
+alt="tutorial y demostración" width="480" height="360" border="10" /></a>
+
 ## Características de nuestra propuesta 
 ### Características técnicas
 * Aplicación basada en el uso de software libre
@@ -37,18 +43,30 @@ Descargar el instalador desde [descarga windows](http://www.web2py.com/examples/
 
 #### En linux:
 clonar usando 
-> git clone https://github.com/web2py/web2py.git
+> git clone --recursive https://github.com/web2py/web2py.git
 
 ### 2. Instalar OpenLex
 en el directorio: 
-> *Directorio web2py*/applications
+ *Directorio web2py*/applications
 
 descargue y descomprima el archivo: [zip OpenLex](https://github.com/UniversidadDelEste/OpenLex/archive/master.zip)
+
+o bien clone en el subdirectorio applications
+> git clone https://github.com/UniversidadDelEste/OpenLex.git
 
 ### 3. Ejecutar OpenLex
 Ejecute web2py:
 > python.exe web2py.py
 
 Abra el navegador de internet e ingrese el link http://127.0.0.1:8000/OpenLex/default/index
+
+puede ingresar como usuarios de prueba
+
+user: egomez@user.com  contraseña: egomez
+user: jperez@user.com  contraseña: jperez
+
+Para más información sobre la estructura interna del sistema:
+[Descripción sistema](https://github.com/UniversidadDelEste/OpenLex/blob/master/documents/Descripci%C3%B3n%20sistema.pdf)
+
 
 ¡Que lo disfrute!
